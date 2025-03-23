@@ -1,0 +1,17 @@
+{
+  "__template__": {
+    "root": "",
+    "preverb": "",
+    "thematic_suffix": ""
+  },
+  "დაწერს": {
+    "root": "წერ",
+    "preverb": "და",
+    "thematic_suffix": ""
+  },
+  "დაკარგავს": {
+    "root": "კარგ",
+    "preverb": "და",
+    "thematic_suffix": "ავ"
+  }
+}
