@@ -18,7 +18,7 @@
   "ქვეყანა": {
     "part_of_speech": "noun",
     "root": "ქვეყანა",
-    "kumSvadkvecadi_root": "ქვეყნ"
+    "kumSvadkvecadi_root": "ქლესი"
   },
   "დღე": {
     "part_of_speech": "noun",
@@ -37,20 +37,6 @@
     "part_of_speech": "noun",
     "root": "ბუ"
   },
-
-
-
-
-
-
-
-
-
-
-
-
-  // todo: დასწერს დაიწერება დაეწერება დაწერია დააწერია (და)უწერია დააწერინებს
-  // todo pirebi: დამიწერს/დაგიწერს/დაუწერს; დამაწერინებს;დაგაწერინებს/დაუწერინებს
   "დაწერს": {
     "part_of_speech": "verb",
     "root": "წერ",
@@ -68,21 +54,4 @@
     "preverb": "და",
     "versioner": "ი"
   }
-//  "დაეწერს": {
-//    "part_of_speech": "verb",
-//    "root": "წერ",
-//    "preverb": "და",
-//    "versioner": "ე"
-//  },
-//  "ჩაწერს": {
-//    "part_of_speech": "verb",
-//    "root": "წერ",
-//    "preverb": "ჩა"
-//  },
-//  "დაკარგავს": {
-//    "part_of_speech": "verb",
-//    "root": "კარგ",
-//    "preverb": "და",
-//    "thematic_suffix": "ავ"
-//  }
 }
