@@ -1,17 +1,88 @@
 {
   "__template__": {
+    "part_of_speech": "",
     "root": "",
-    "preverb": "",
-    "thematic_suffix": ""
+    "preverb": null,
+    "thematic_suffix": null
   },
+  "წერა": {
+    "part_of_speech": "noun",
+    "root": "წერა",
+    "kumSvadkvecadi_root": "წერ"
+  },
+  "ნამუშევარი": {
+    "part_of_speech": "noun",
+    "root": "ნამუშევარ",
+    "kumSvadkvecadi_root": "ნამუშევრ"
+  },
+  "ქვეყანა": {
+    "part_of_speech": "noun",
+    "root": "ქვეყანა",
+    "kumSvadkvecadi_root": "ქვეყნ"
+  },
+  "დღე": {
+    "part_of_speech": "noun",
+    "root": "დღე",
+    "kumSvadkvecadi_root": "დღ"
+  },
+  "ჩაი": {
+    "part_of_speech": "noun",
+    "root": "ჩაი"
+  },
+  "წერო": {
+    "part_of_speech": "noun",
+    "root": "წერო"
+  },
+  "ბუ": {
+    "part_of_speech": "noun",
+    "root": "ბუ"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  // todo: დასწერს დაიწერება დაეწერება დაწერია დააწერია (და)უწერია დააწერინებს
+  // todo pirebi: დამიწერს/დაგიწერს/დაუწერს; დამაწერინებს;დაგაწერინებს/დაუწერინებს
   "დაწერს": {
+    "part_of_speech": "verb",
+    "root": "წერ",
+    "preverb": "და"
+  },
+  "დააწერს": {
+    "part_of_speech": "verb",
     "root": "წერ",
     "preverb": "და",
-    "thematic_suffix": ""
+    "versioner": "ა"
   },
-  "დაკარგავს": {
-    "root": "კარგ",
+  "დაიწერს": {
+    "part_of_speech": "verb",
+    "root": "წერ",
     "preverb": "და",
-    "thematic_suffix": "ავ"
+    "versioner": "ი"
   }
+//  "დაეწერს": {
+//    "part_of_speech": "verb",
+//    "root": "წერ",
+//    "preverb": "და",
+//    "versioner": "ე"
+//  },
+//  "ჩაწერს": {
+//    "part_of_speech": "verb",
+//    "root": "წერ",
+//    "preverb": "ჩა"
+//  },
+//  "დაკარგავს": {
+//    "part_of_speech": "verb",
+//    "root": "კარგ",
+//    "preverb": "და",
+//    "thematic_suffix": "ავ"
+//  }
 }
