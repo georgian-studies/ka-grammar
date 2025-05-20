@@ -21,7 +21,7 @@ def generate_noun_forms(entry: WordConfigurationDto) -> NounForms:
             kveca_in_plural = entry.kveca_in_plural
         else:
             if root.endswith("ა"):
-                kveca_in_plural = entry.kveca
+                kveca_in_plural = entry.kveca if entry.kveca is not None else False
             else:
                 kveca_in_plural = False
         plural_root_base = (kumSvadi_root[:-1] if kveca_in_plural else kumSvadi_root)

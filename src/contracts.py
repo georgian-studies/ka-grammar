@@ -9,10 +9,10 @@ class WordConfigurationDto(BaseModel):
     root: str
     preverb: Optional[str] = None
     thematic_suffix: Optional[str] = None
-    kveca: bool = False
+    kveca: Optional[bool] = None
     kveca_in_plural: Optional[bool] = None # todo validate, that is only True if kveca is False
     kumSvadi_root: Optional[str] = None
-    drop_vocative: bool = False
+    drop_vocative: Optional[bool] = None
     versioner: Optional[str] = None
 
 
