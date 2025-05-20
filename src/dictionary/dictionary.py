@@ -24,7 +24,7 @@ _TEMPLATES: Final[dict[str, str]] = {
 </head>
 <body class="bg-gray-100 font-sans antialiased">
   <main class="max-w-6xl mx-auto p-6">
-    <h1 class="text-3xl md:text-4xl font-bold text-center text-indigo-700 mb-10">
+    <h1 class="text-3xl md:text-4xl font-bold text-center mb-10">
       Georgian Verb Conjugations &amp; Noun Declensions
     </h1>
 
@@ -126,7 +126,7 @@ def generate(path_to_dictionary_json: str | Path, path_to_output_html: str | Pat
 
 if __name__ == "__main__":
     generate(
-        "dictionary.jsonc",
-        "dictionary.html",
+        "../../dictionary.jsonc",
+        "../../public/dictionary.html",
     )
 
